@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>饿了么</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=0.5 maximum-scale=0.5, minimum-scale=0.5">
+    <link rel='stylesheet' href='./css/base.css' />
+    <link rel='stylesheet' href='./css/index.css' />
+    <link rel="stylesheet" href="./font/iconfont.css">
+     <link rel='stylesheet' href='./js/swiper/swiper-3.4.2.min.css' />
+  </head>
+  <body>
+     <header>
+        <div class="location">
+            <span class="icon iconfont icon-dingwei"></span> <h2>宝安国际机场</h2><span class="tianqi icon iconfont icon-tianqi"></span>
+        </div>
+        <div class="search">
+          <input type="text" placeholder="搜索商家、商品"/>
+        </div>
+        <div class="nav1">
+          <div class="swiper-container1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">桂林米粉</div>
+              <div class="swiper-slide" >百果园</div>
+              <div class="swiper-slide">木桶饭</div>
+              <div class="swiper-slide">大师兄外卖</div>
+              <div class="swiper-slide">抢百万红包</div>
+              <div class="swiper-slide">天天特价</div>
+              <div class="swiper-slide">华莱士</div>
+              <div class="swiper-slide">必胜客</div>
+              <div class="swiper-slide">黄焖鸡</div>
+              <div class="swiper-slide">肯德基</div>
+            </div>
+          </div>
+        </div>
+     </header>
+     <nav>
+       <div class="swiper-container2">
+         <div class="swiper-wrapper">
+           <div class="swiper-slide">
+             <a href="#"><img src="images/li1.jpeg" alt=""><span>美食</span></a>
+             <a href="#"><img src="images/a2.jpeg" alt=""><span>甜品饮品</span></a>
+             <a href="#"><img src="images/a3.jpeg" alt=""><span>商超便利</span></a>
+             <a href="#"><img src="images/a4.jpeg" alt=""><span>预定早餐</span></a>
+             <a href="#"><img src="images/a5.jpeg" alt=""><span>果蔬生鲜</span></a>
+             <a href="#"><img src="images/a6.jpeg" alt=""><span>新店特惠</span></a>
+             <a href="#"><img src="images/a7.jpeg" alt=""><span>准时达</span></a>
+             <a href="#"><img src="images/a8.jpeg" alt=""><span>简餐</span></a>
+           </div>
+           <div class="swiper-slide">
+             <a href="#"><img src="images/a9.jpeg" alt=""><span>土豪推荐</span></a>
+             <a href="#"><img src="images/a10.jpeg" alt=""><span>鲜花蛋糕</span></a>
+             <a href="#"><img src="images/a11.jpeg" alt=""><span>汉堡薯条</span></a>
+             <a href="#"><img src="images/a12.jpeg" alt=""><span>包子粥店</span></a>
+             <a href="#"><img src="images/a13.jpeg" alt=""><span>麻辣烫</span></a>
+             <a href="#"><img src="images/a14.jpeg" alt=""><span>川湘菜</span></a>
+             <a href="#"><img src="images/a15.jpeg" alt=""><span>美披萨意面</span></a>
+             <a href="#"><img src="images/a16.jpeg" alt=""><span>日韩料理</span></a>
+           </div>
+         </div>
+         <!-- Add Pagination -->
+         <div class="swiper-pagination"></div>
+       </div>
+     </nav>
+     <section id="content">
+        <h2>推荐商家</h2>
+           <a class="item" href="">
+                   <img src="images/img1.jpeg">
+             <ul>
+             <li><h2>肯德基宅急送</h2></li>
+             <li class="li2">5分
+                 <span>月售100单</span></li>
+             <li class="li3">￥20元起送/
+                 配送费￥5 ￥20/人
+               <span>30分钟</span>
+             </li>
+             </ul>
+           </a>
+            <a class="item" href="">
+                   <img src="images/img1.jpeg">
+             <ul>
+             <li><h2>肯德基宅急送</h2></li>
+             <li class="li2">5分
+                 <span>月售100单</span></li>
+             <li class="li3">￥20元起送/
+                 配送费￥5 ￥20/人
+               <span>30分钟</span>
+             </li>
+             </ul>
+           </a>
+            <a class="item" href="">
+                   <img src="images/img1.jpeg">
+             <ul>
+             <li><h2>肯德基宅急送</h2></li>
+             <li class="li2">5分
+                 <span>月售100单</span></li>
+             <li class="li3">￥20元起送/
+                 配送费￥5 ￥20/人
+               <span>30分钟</span>
+             </li>
+             </ul>
+           </a> 
+           <a class="item" href="">
+                   <img src="images/img1.jpeg">
+             <ul>
+             <li><h2>肯德基宅急送</h2></li>
+             <li class="li2">5分
+                 <span>月售100单</span></li>
+             <li class="li3">￥20元起送/
+                 配送费￥5 ￥20/人
+               <span>30分钟</span>
+             </li>
+             </ul>
+           </a> 
+     </section>
+     <footer>
+       <a href="index.html"><span class="icon iconfont icon-changyonglogo40"></span>外卖</a>
+       <a href="find.html"><span class="icon iconfont icon-444"></span>发现</a>
+       <a href="order.html"><span class="icon iconfont icon-order"></span>订单</a>
+       <a href="my.html"><span class="icon iconfont icon-iconfontwohover"></span>我的</a>
+     </footer>
+  </body>
+</html>
+<script src="./js/swiper/swiper-3.4.2.min.js"></script>
+<script>
+	var swiper = new Swiper('.swiper-container1', {
+		pagination: '.swiper-pagination',
+		slidesPerView: 5,
+		paginationClickable: true,
+		spaceBetween: 30,
+		freeMode: true
+	});
+</script>
+<script>
+	var swiper = new Swiper('.swiper-container2', {
+		pagination: '.swiper-pagination',
+		paginationClickable: true,
+        loop:true
+	});
+</script>
